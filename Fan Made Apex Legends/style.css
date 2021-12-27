@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(180.47deg, rgba(0, 0, 0, 0) 29.82%, rgba(0, 0, 0, 0.64) 39.64%, rgba(0, 0, 0, 0.8) 58.76%, rgba(0, 0, 0, 0.88) 80.47%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cabecalho{
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(100px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+}
+.cabecalho-imagem{
+    width: 80px;
+    cursor: pointer;
+}
+.cabecalho-item{
+    font-size: 20px;
+    font-weight: medium;
+    color: white;
+    border-bottom: none 3px #DA292A;
+    transition: 100ms;
+}
+.cabecalho-item:hover{
+    border-bottom: solid 3px #DA292A;
+}
+
+.cabecalho-login{
+    font-size: 20px;
+    font-weight: bold;
+    color: #DA292A;
+    border-bottom: none 3px white;
+    transition: 100ms;
+}
+.cabecalho-login:hover{
+    border-bottom: solid 3px white;
+}
+main{
+    width: fit-content;
+}
+.conteudo{
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.right-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-direction: column;
+}
+.right-main h3{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.right-main p{
+    color: white;
+    font-weight: medium;
+    font-size: 20px;
+}
+.right-main input{
+    padding: 5px 30px;
+    width: fit-content;
+    color: white;
+    font-size: 30px;
+    border: none;
+    background-color: #DA292A;
+    cursor: pointer;
+    border-bottom: none 3px white;
+    transition: 100ms;
+}
+.right-main input:hover{
+    border-bottom: solid 3px white;
+}
+.img-background{
+    width: 100%;
+}
+.img-bloodhound{
+    width:fit-content; 
+}
+footer{
+    color: white;
+    margin: 30px auto;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-direction: column;
+}
